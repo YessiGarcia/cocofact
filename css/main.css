@@ -14,10 +14,20 @@ nav ul{
 	justify-content: space-around;
 	margin: 0;
 	padding: 0;
+	align-items: center;
 }
 
 nav ul li{
-	text-decoration: none;
+	list-style: none;
+	margin: 1px 0 1px 0;
+}
+
+.azul-rey{
+	color:	#000080
+}
+
+.azul-fondo{
+	color:#1E90FF;
 }
 
 .naranja{
