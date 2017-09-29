@@ -86,8 +86,8 @@ nav ul li{
 	width: 400px;
 	font-size: 18px;
 	position: relative;
-	right: 100px;
-	bottom: -150px;
+	right: 130px;
+	top: 550px;
 	margin: 20px;
 	color: white;
 	text-shadow: 0 0 2px black;
@@ -104,4 +104,23 @@ nav ul li{
 	display: block;
 	height: 60px;
 	width: 60px;
+}
+
+@media (max-width: 700px){
+	.principal{
+		font-size: 18px;
+		width: 200px;
+		padding: 10px;
+	}
+	.principal::before{
+		padding: 10px;
+	}
+	.blanco{
+		width: 300px;
+		font-size: 14px;
+		margin-left: 80px;
+	}
+	.texto{
+		right: 50px;
+	}
 }
