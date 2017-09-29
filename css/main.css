@@ -6,12 +6,11 @@ body{
 	font-family: helvetica;
 }
 nav{
-	background-color: white;
+	background-color: rgba(255, 255, 255, .9);
 }
 
 nav ul{
 	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
 	margin: 0;
 	padding: 0;
@@ -60,7 +59,7 @@ nav ul li{
 	width:350px;
 	margin-left: 80px;
 	padding: 5px 15px;
-
+	box-shadow: 7px 7px 10px rgba(0, 0, 0, .1);
 }
 
 .tenis {
@@ -76,4 +75,13 @@ nav ul li{
 .blanco div p{
 	margin: 5px;
 	padding-left: 10px;
+}
+
+.texto{
+	width: 400px;
+	font-size: 18px;
+	position: relative;
+	left: 450px;
+	top: 70px;
+	margin: 20px;
 }
