@@ -1,10 +1,14 @@
 body{
 	background-image: url(../items/tennisCourt.jpg);
+	background-repeat: no-repeat;
+	background-size: 160% 160%;
+	background-origin: left-top;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	font-family: helvetica;
 }
+
 nav{
 	background-color: rgba(255, 255, 255, .9);
 }
@@ -32,10 +36,10 @@ nav ul li{
 
 .principal{
 	background-color: #FF4500;
-	padding: 5px;
+	padding: 15px;
 	color: white;
 	font-size: 35px;
-	margin:80px 0 0 70px;
+	margin:100px 0 0 100px;
 	width: 350px;
 	position: relative;
 }
@@ -46,18 +50,18 @@ nav ul li{
 	background-color: #FF4500;
 	position: absolute;
 	display: block;
-	padding: 5px;
+	padding: 15px;
 	top: 0;
-	left: -62px;
-	transform: skew(35deg);
-	width: 70px;
+	left: -78px;
+	transform: skew(41deg);
+	width: 100px;
 	z-index: -1;
 }
 
 .blanco{
 	background: white;
 	width:350px;
-	margin-left: 80px;
+	margin-left: 180px;
 	padding: 5px 15px;
 	box-shadow: 7px 7px 10px rgba(0, 0, 0, .1);
 }
@@ -81,7 +85,25 @@ nav ul li{
 	width: 400px;
 	font-size: 18px;
 	position: relative;
-	left: 450px;
+	left: 700px;
 	top: 70px;
 	margin: 20px;
+	color: white;
+	position: relative;
+}
+
+.texto::before{
+	background: url(../items/comillas-blancas-1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	content: "";
+	color: white;
+	position: absolute;
+	left: -70px;
+	top: -10px;
+	font-family: "Cinzel", serif;
+	font-size: 150px;
+	display: block;
+	height: 60px;
+	width: 60px;
 }
