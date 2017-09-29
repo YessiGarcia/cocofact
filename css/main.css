@@ -1,7 +1,7 @@
 body{
 	background-image: url(../items/tennisCourt.jpg);
 	background-repeat: no-repeat;
-	background-size: 160% 160%;
+	background-size: 160% 200%;
 	background-origin: left-top;
 	width: 100%;
 	margin: 0;
@@ -11,6 +11,7 @@ body{
 
 nav{
 	background-color: rgba(255, 255, 255, .9);
+	width: 100%;
 }
 
 nav ul{
@@ -39,7 +40,7 @@ nav ul li{
 	padding: 15px;
 	color: white;
 	font-size: 35px;
-	margin:100px 0 0 100px;
+	margin:80px 0 0 100px;
 	width: 350px;
 	position: relative;
 }
@@ -52,8 +53,8 @@ nav ul li{
 	display: block;
 	padding: 15px;
 	top: 0;
-	left: -78px;
-	transform: skew(41deg);
+	left: -76px;
+	transform: skew(44deg);
 	width: 100px;
 	z-index: -1;
 }
@@ -85,11 +86,11 @@ nav ul li{
 	width: 400px;
 	font-size: 18px;
 	position: relative;
-	left: 700px;
-	top: 70px;
+	right: 100px;
+	bottom: -150px;
 	margin: 20px;
 	color: white;
-	position: relative;
+	position: absolute;
 }
 
 .texto::before{
